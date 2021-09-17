@@ -31,7 +31,7 @@ def main():
             print(err)
     # in this stage we can take videos form the local pc that sync with the raspberry folder
     # but now we entered sample video
-    subprocess.call(['opencv-test.exe', 'C:\\Users\\ddkil\\PycharmProjects\\Raspberry_project\\test_video.mp4', 'result.txt', 'C:\\Users\ddkil\\PycharmProjects\\Raspberry_project\\images', '15'])
+    subprocess.call(['opencv-test.exe', 'C:\\Users\\ddkil\\PycharmProjects\\Raspberry_project\\test_video.mp4', 'result.txt', 'C:\\Users\ddkil\\PycharmProjects\\Raspberry_project\\images', '5'])
     view.run()
 
 # Press the green button in the gutter to run the script.
